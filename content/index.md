@@ -14,7 +14,7 @@ hero:
       link: /01-第一课-环境与工具
     - theme: alt
       text: 在 GitHub 上查看
-      link: https://github.com/Vorest3679/SUIBEcodebook
+      link: https://github.com/suibeOJweb/SUIBEcodebook
 
 features:
   - title: 🛠️ 环境工具
@@ -39,7 +39,6 @@ features:
 
 ## 为什么写这本 Codebook
 
-直话直说了：
 一切都源自于笔者自主拓展探索的困难。
 
 要知道，笔者是人工智能专业的第二届学生，而且由于商校对于计算机，ai领域也是刚开的情况，这就导致了一个问题：各方面的资源，经验都过于短缺。笔者在大一下学期就跟两位大数据的学长组建了一支ACM队伍，当时网络赛成功入围，也在学校组织了一下院级活动，可惜在济南区域赛后打了铁，之后学长和笔者由于各方面忙其他的事情，最后不告而终。（而ACM本身如何，那更是后话了）
