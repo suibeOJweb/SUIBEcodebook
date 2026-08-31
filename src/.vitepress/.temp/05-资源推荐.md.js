@@ -1,0 +1,19 @@
+import { ssrRenderAttrs } from "vue/server-renderer";
+import { useSSRContext } from "vue";
+import { _ as _export_sfc } from "./plugin-vue_export-helper.1tPrXgE0.js";
+const __pageData = JSON.parse('{"title":"资源推荐","description":"","frontmatter":{},"headers":[],"relativePath":"05-资源推荐.md","filePath":"05-资源推荐.md","lastUpdated":null}');
+const _sfc_main = { name: "05-资源推荐.md" };
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  _push(`<div${ssrRenderAttrs(_attrs)}><h1 id="资源推荐" tabindex="-1">资源推荐 <a class="header-anchor" href="#资源推荐" aria-label="Permalink to &quot;资源推荐&quot;">​</a></h1><blockquote><p>返回 <a href="/SUIBEcodebook/">目录</a></p></blockquote><p>只推荐口碑经过时间检验、真正值得花时间的资源。宁缺毋滥——收藏一堆从来不看的教程不如啃透一门好课。</p><h2 id="课程" tabindex="-1">课程 <a class="header-anchor" href="#课程" aria-label="Permalink to &quot;课程&quot;">​</a></h2><h3 id="计算机基础-优先级最高" tabindex="-1">计算机基础（优先级最高） <a class="header-anchor" href="#计算机基础-优先级最高" aria-label="Permalink to &quot;计算机基础（优先级最高）&quot;">​</a></h3><ul><li><strong>CSAPP（深入理解计算机系统）</strong>：CMU 的招牌课（15-213），讲透程序在机器层面如何运行。配套教材 + B 站上有完整的课程录像和中文字幕。大二大三看正合适，看完你对&quot;程序到底是什么&quot;的理解会上一个台阶。</li><li><strong>jyy 操作系统</strong>：南京大学蒋炎岩老师的操作系统课，B 站免费。讲课风格极其硬核又有趣，全程 live coding，是中文世界最好的 OS 课之一。</li><li><strong>计算机网络</strong>：推荐中科大郑烇老师的计网课（B 站有），或者斯坦福 CS144——后者的 lab 是手写一个 TCP 协议栈，做完终身难忘。</li><li><strong>Missing Semester（MIT）</strong>：学校不教但程序员每天都用的东西：Shell、Vim、Git、调试、命令行工具。大一就该看完，共 11 节课，投入产出比极高。</li></ul><h3 id="数学" tabindex="-1">数学 <a class="header-anchor" href="#数学" aria-label="Permalink to &quot;数学&quot;">​</a></h3><ul><li><strong>3Blue1Brown</strong>：用动画建立数学直觉。线性代数系列和微积分系列必看，神经网络系列是理解深度学习最好的入门材料。</li><li>校内的高数、线代、概率论课别糊弄——AI 方向往上走，数学是真正的天花板。</li></ul><h3 id="编程与算法" tabindex="-1">编程与算法 <a class="header-anchor" href="#编程与算法" aria-label="Permalink to &quot;编程与算法&quot;">​</a></h3><ul><li><strong>Hello Algorithm（hello-algo）</strong>：开源动画图解算法书，支持 Python/Java/C++/JS 多语言代码，对新手极其友好。</li><li><strong>labuladong 的算法笔记</strong>：刷 LeetCode 的方法论，比无脑刷题强得多。面向找工作的算法准备。</li><li><strong>CS50（哈佛）</strong>：如果你是完全零基础，这是最经典的计算机通识入门课。</li></ul><h2 id="网站-文档" tabindex="-1">网站 / 文档 <a class="header-anchor" href="#网站-文档" aria-label="Permalink to &quot;网站 / 文档&quot;">​</a></h2><ul><li><strong>MDN Web Docs</strong>：前端/Web 技术的权威文档，学 HTML/CSS/JS 就住在这里，别看乱七八糟的二手教程。</li><li><strong>JavaGuide</strong>：Java 后端学习与面试的中文开源指南，覆盖 Java 基础、并发、JVM、框架、中间件，就业向必备。</li><li><strong>小林 coding</strong>：图解计算机网络、操作系统、MySQL、Redis，面试八股里写得最好懂的一类。</li><li><strong>roadmap.sh</strong>：各个方向（前端/后端/DevOps/AI……）的学习路线图，不知道自己该学什么的时候先看它。</li><li><strong>菜鸟教程 / 廖雪峰的官方网站</strong>：快速查语法、入门某门语言时用，适合当字典而不是当教材。</li><li><strong>LeetCode / Codeforces</strong>：前者面向求职刷题，后者面向算法竞赛。想做竞赛的话再加一个 AtCoder。</li><li><strong>GitHub</strong>：本身就是最大的学习资源库。关注优质开源项目、读别人的代码，比看教程进步快。</li><li><strong>Stack Overflow</strong>：遇到问题先搜它（以及现在先问 AI），学会看英文答案。</li></ul><h2 id="工具类" tabindex="-1">工具类 <a class="header-anchor" href="#工具类" aria-label="Permalink to &quot;工具类&quot;">​</a></h2><ul><li><strong>VS Code</strong>：新手默认编辑器，插件生态最全。</li><li><strong>Apifox / Postman</strong>：调 API 用。</li><li><strong>Docker</strong>：环境问题的终极答案，早学早解脱。</li></ul><h2 id="怎么用好这份清单" tabindex="-1">怎么用好这份清单 <a class="header-anchor" href="#怎么用好这份清单" aria-label="Permalink to &quot;怎么用好这份清单&quot;">​</a></h2><ol><li>一次只啃一门课/一本书，看完再开下一个，收藏癖是学习的大敌。</li><li>所有课程的重点都在 lab 和作业上，光看视频等于没学。</li><li>遇到看不懂的先问 AI（DeepSeek/Kimi/GPT/Claude），让它给你讲到懂为止——这是这一代学习者最大的红利。</li></ol><p>（持续补充中，欢迎 PR）</p></div>`);
+}
+const _sfc_setup = _sfc_main.setup;
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = useSSRContext();
+  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("05-资源推荐.md");
+  return _sfc_setup ? _sfc_setup(props, ctx) : void 0;
+};
+const _05_____ = /* @__PURE__ */ _export_sfc(_sfc_main, [["ssrRender", _sfc_ssrRender]]);
+export {
+  __pageData,
+  _05_____ as default
+};

@@ -1,0 +1,14 @@
+{
+  "name": "suibecodecook",
+  "version": "1.0.0",
+  "description": "写给 SUIBE 学子的编程实践学习手册",
+  "type": "module",
+  "scripts": {
+    "dev": "vitepress dev src",
+    "build": "vitepress build src",
+    "preview": "vitepress preview src"
+  },
+  "devDependencies": {
+    "vitepress": "^1.6.4"
+  }
+}

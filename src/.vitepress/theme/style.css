@@ -1,0 +1,47 @@
+/* 自定义样式，覆盖 VitePress 默认主题 */
+
+:root {
+  --vp-c-brand-1: #3b82f6;
+  --vp-c-brand-2: #2563eb;
+  --vp-c-brand-3: #1d4ed8;
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: -webkit-linear-gradient(
+    120deg,
+    #3b82f6 30%,
+    #8b5cf6
+  );
+}
+
+/* 缩小首页 Hero 区校徽 */
+.VPHomeHero .image {
+  width: 250px;
+  height: 250px;
+}
+
+.VPHomeHero .image-bg {
+  width: 250px;
+  height: 250px;
+}
+
+.VPHomeHero .image-src {
+  max-width: 200px;
+  max-height: 200px;
+}
+
+/* 移动端再小一点 */
+@media (max-width: 768px) {
+  .VPHomeHero .image {
+    width: 140px;
+    height: 140px;
+  }
+
+  .VPHomeHero .image-bg {
+    width: 140px;
+    height: 140px;
+  }
+
+  .VPHomeHero .image-src {
+    max-width: 110px;
+    max-height: 110px;
+  }
+}
