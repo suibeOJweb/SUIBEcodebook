@@ -24,6 +24,7 @@ export default defineConfig({
       {
         text: "目录",
         items: [
+          { text: "引言", link: "/00-引言" },
           { text: "第一课：环境与工具", link: "/01-第一课-环境与工具" },
           { text: "面向兴趣介绍", link: "/02-兴趣方向介绍" },
           { text: "面向就业介绍", link: "/03-就业方向介绍" },
