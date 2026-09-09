@@ -15,7 +15,12 @@ export default defineConfig({
     ["meta", { property: "og:image", content: "/SUIBEcodebook/logo.png" }],
   ],
   themeConfig: {
-    logo: "/logo.png",
+    // 将导航图标和站点标题拆开配置，避免移动端窄屏时图标挤进标题文字。
+    logo: {
+      src: "/logo.png",
+      alt: "",
+    },
+    siteTitle: "SUIBECodeCook",
     nav: [
       { text: "首页", link: "/" },
       { text: "GitHub", link: "https://github.com/Vorest3679/SUIBEcodebook" },
